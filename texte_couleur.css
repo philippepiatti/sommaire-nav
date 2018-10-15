@@ -1,0 +1,171 @@
+﻿body {
+margin:0px;
+padding:0px;
+font-family: "Times New Roman", Times,
+"Liberation Serif", FreeSerif, serif;	
+}
+
+.cadre_general	
+{
+position:relative;
+position:fixed;
+top:0; right:0; bottom:0; left:0;
+z-index:10;	
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin:20px auto;
+height:250px;
+width:200px;
+Overflow: Scroll;     
+padding-top:1em;
+padding-bottom:1em;  
+border-radius:7px;
+border:	#8b9aa6 solid ;  
+border-radius:7px;
+border:	#8b9aa6 solid ;
+background-color: rgba(255, 255, 255, 0.8); 
+ 
+}
+
+p {		
+display: flex;
+justify-content: center;
+align-items: center;  
+height:50px;
+width:50px;  
+margin:5px;	
+}
+
+.suport_paleteCouleur{
+position:fixed;
+left:0px;
+top:0px;
+width:100%;	
+height:100%;	
+background-color:rgba(0,0,0, 0.1);	
+display:none;
+}
+
+#textecouleur1, #textecouleur2, #textecouleur3, #textecouleur4, #textecouleur5, #textecouleur6, #textecouleur7, #textecouleur8, #textecouleur9, #textecouleur10, #textecouleur11, #textecouleur12, #textecouleur13, #textecouleur14, #textecouleur15, #textecouleur16, #textecouleur17, #textecouleur18, #textecouleur19, #textecouleur20 { 
+font-weight:bold;
+font-size:3em;
+cursor:pointer;	
+}
+
+#textecouleur1 { 
+color:#ffffff;
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;		
+}
+
+#textecouleur2 { 
+color:#e777db;		
+}
+
+#textecouleur3 { 
+color:#52be80;		
+}
+
+#textecouleur4 { 
+color:#4a98ca;		
+}
+
+#textecouleur5 { 
+color:#e74c3c;		
+}
+
+#textecouleur6 { 
+color:#ff0000;		
+}
+
+#textecouleur7 { 
+color:#008080;
+		
+}
+
+#textecouleur8 { 
+color:#e6b0aa;		
+}
+
+#textecouleur9 { 
+color:#add8e6;		
+}
+
+#textecouleur10 { 
+color:#ffe090;		
+}
+
+#textecouleur11 { 
+color:#808080;		
+}
+
+#textecouleur12 { 
+color:#800080;		
+}
+
+#textecouleur13 { 
+color:#008000;		
+}
+
+#textecouleur14 { 
+color:black;		
+}
+
+#textecouleur15 { 
+color:#808000;		
+}
+
+#textecouleur16 { 
+color:#00ffff;		
+}
+
+#textecouleur17 { 
+color:#800000;		
+}
+
+#textecouleur18 { 
+color:#0000ff;		
+}
+
+#textecouleur19 { 
+color:#c0c0c0;		
+}
+
+#textecouleur20 { 
+position:relative;
+color:#000080;
+z-index:20;		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

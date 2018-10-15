@@ -1,0 +1,138 @@
+﻿body {
+margin:0px;
+padding:0px;
+font-family: "Times New Roman", Times,
+"Liberation Serif", FreeSerif, serif;	
+}
+
+/* image */
+img {
+cursor:pointer;
+border-radius:3px;
+height:56px;
+width:50px;
+}
+.texte{
+position:relative;
+top:-200px;
+}
+.cadre	
+{
+position:relative;
+position:fixed;
+top:0; right:0; bottom:0; left:0;
+z-index:10;	
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin:20px auto;
+height:250px;
+width:200px;
+Overflow: Scroll;     
+padding-top:1em;
+padding-bottom:1em;  
+border-radius:7px;
+border:	#8b9aa6 solid ;  
+border-radius:7px;
+border:	#8b9aa6 solid ;
+background-color: rgba(255, 255, 255, 0.8); 
+ 
+}
+
+
+.cadrecouleur1, .cadrecouleur2, .cadrecouleur3, .cadrecouleur4,.cadrecouleur5, .cadrecouleur6, .cadrecouleur7, .cadrecouleur8, .cadrecouleur9, .cadrecouleur10, .cadrecouleur11,.cadrecouleur12, .cadrecouleur13, .cadrecouleur14, .cadrecouleur15,.cadrecouleur16, .cadrecouleur17, .cadrecouleur18, .cadrecouleur19, .cadrecouleur20
+{	
+cursor:pointer;	
+display: flex;
+justify-content: center;
+align-items: center;  
+height:50px;
+width:50px;  
+margin:5px;
+background: #E5E7E9; 
+}
+
+.cadrecouleur1 {
+background-color: #ffffff; 
+border:1px solid black;
+}
+
+.cadrecouleur2 {
+background-color: #e777db; 
+}
+
+.cadrecouleur3 {
+background-color: #52BE80  ;
+border:1px solid white; 
+}
+
+.cadrecouleur4 {
+background-color: #4a98ca;
+border:1px solid white; 
+}
+
+.cadrecouleur5 {
+background-color: #E74C3C; 
+}
+
+.cadrecouleur6 {
+background-color: red; 
+}
+
+.cadrecouleur7 {
+background-color: teal; 
+}
+
+.cadrecouleur8 {
+background-color: #E6B0AA; 
+}
+
+.cadrecouleur9 {
+background-color: lightblue; 
+}
+
+.cadrecouleur10 {
+background-color:#ffe090; 
+}
+
+.cadrecouleur11 {
+background-color:gray; 
+}
+
+.cadrecouleur12 {
+background-color:purple; 
+}
+
+.cadrecouleur13 {
+background-color:green; 
+}
+
+.cadrecouleur14 {
+background-color:black; 
+}
+
+.cadrecouleur15 {
+background-color:olive; 
+}
+
+.cadrecouleur16 {
+background-color:aqua; 
+}
+
+.cadrecouleur17 {
+background-color:maroon; 
+}
+
+.cadrecouleur18 {
+background-color:blue; 
+}
+
+.cadrecouleur19 {
+background-color:silver; 
+}
+
+.cadrecouleur20 {
+background-color:navy; 
+}
+
+

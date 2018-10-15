@@ -1,0 +1,307 @@
+body{
+width: 100wh;
+height: 100vh;
+margin:0px;
+padding:0px;
+background-color:#272e5a;
+color:white;
+font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+a{
+text-decoration:none;
+} 
+
+p{
+color:white;
+font-family: "Gill Sans Extrabold", sans-serif;
+font-size:0.8em;
+}
+
+#contenaire_logos
+{
+position:relative;
+top:1em;	
+}
+
+#ligne_logo_1
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#ligne_titre_1{
+position:relative;
+top:-0.5em;
+display: flex;
+justify-content: space-around;
+}
+
+#ligne_logo_2
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#ligne_titre_2{
+position:relative;
+top:-0.5em;
+display: flex;
+justify-content: space-around;
+}
+
+#ligne_logo_3
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#ligne_titre_3{
+position:relative;
+top:-0.5em;
+display: flex;
+justify-content: space-around;
+}
+
+.bord_arrondi
+{
+border-radius:3px;
+}
+
+
+
+.aligne_vertical
+{
+display: flex;
+flex-direction: column;
+}
+
+.sommaire{
+position:relative;
+left:-0.3em;
+}
+
+.version{
+position:relative;
+left:-0.5em;
+}
+
+.annotation{
+position:relative;
+left:-0.5em;
+}
+
+
+.retour{
+position:relative;
+left:-0.6em;
+}
+
+.chapitres{
+position:relative;
+}
+
+.signer{
+position:relative;
+
+}
+
+.acce_signer{
+position:relative;
+left:-0.4em;
+}
+
+.fond_noir{
+position:relative;
+}
+
+.fond_noir_image{
+position:relative;
+left:0.5em;
+}
+
+.couleur_texte{
+position:relative;
+left:-0.8em;
+}
+
+.fond_couleur{
+position:relative;
+left:-0.4em;
+}
+
+.fond_couleur_image{
+position:relative;
+left:-0.3em;
+}
+
+.style{
+position:relative;
+left:-0.7em;
+}
+
+/* ancien nouveau *//* ancien nouveau */
+
+#contenaire_ancien_nouveau {
+bottom:1em;
+display: flex;
+flex-direction: column;	
+margin:1em;
+}
+
+
+#contenaire_cadre_testament{
+display: flex;
+justify-content: space-between;
+}
+
+.cadre_testament	
+{
+display: flex;
+justify-content: center;
+align-items: center;  
+height:45px;
+padding-left:0.5em; 
+padding-right:0.5em;
+border-radius:7px;
+border-top: 0.5px solid #96d1f8;
+border-right: 1px solid #0e85cd;
+border-bottom: 1px solid #1b53db;
+border-left: 0.5px solid #96d1f8;
+background: #cfe7fa; 
+background: -moz-linear-gradient(top, #cfe7fa 0%, #6393c1 100%); 
+background: -webkit-linear-gradient(top, #cfe7fa 0%,#6393c1 100%); 
+background: linear-gradient(to bottom, #cfe7fa 0%,#6393c1 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); 
+}
+.testament {	
+font-size:1.7em;
+font-weight:bold;
+text-shadow: 1.5px 1px #b2d1eb;	
+}
+.texte_boutons{
+color:#272e5a;	
+}
+
+
+/* concordance *//* dictionaire */
+
+#contenaire_concordance_dictionaire {
+position:relative;
+top:3em;
+display: flex;
+flex-direction: column;	
+margin:1em;
+}
+
+
+.concor_dico	
+{
+display: flex;
+justify-content: center;
+align-items: center;  
+height:45px;
+width:100%;  
+border-radius:7px;
+border-top: 0.5px solid #96d1f8;
+border-right: 1px solid #0e85cd;
+border-bottom: 1px solid #1b53db;
+border-left: 0.5px solid #96d1f8;
+background: #cfe7fa; 
+background: -moz-linear-gradient(top, #cfe7fa 0%, #6393c1 100%); 
+background: -webkit-linear-gradient(top, #cfe7fa 0%,#6393c1 100%); 
+background: linear-gradient(to bottom, #cfe7fa 0%,#6393c1 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); 
+}
+
+
+.concor_dico_text {	
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:1.8em;
+font-weight:bold;
+color:#272e5a;
+text-shadow: 1.5px 1px #b2d1eb;	
+}
+
+#concordance_marge_haut{
+margin-top:-3em;	
+}
+
+#dictionaire_marge_haut{
+margin-top:2em;	
+}
+
+
+
+/* zoom *//* zoom *//* zoom */
+
+#ensembleZoom{
+display: flex;
+justify-content: center;
+	
+}
+
+#cadreZoom	
+{
+display:flex;
+justify-content:space-between ; 
+height:45px;
+width:100%;  
+background-color:#272e5a;
+}
+
+.zoom {	
+display: flex;
+justify-content: center;
+align-items: center;	
+}
+   
+#zoom_plus {
+display: flex;
+justify-content: space-between;
+}
+
+#zoom_moins {
+display: flex;
+justify-content: space-between;
+}
+
+.taille_T{
+position:relative;
+right:0.1em;
+top:0.3em;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

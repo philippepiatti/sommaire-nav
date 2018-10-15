@@ -1,0 +1,154 @@
+﻿body {
+margin:0px;
+padding:0px;
+font-family: "Times New Roman", Times,
+"Liberation Serif", FreeSerif, serif;	
+}
+
+.cadre_general	
+{
+position:relative;
+position:fixed;
+top:0; right:0; bottom:0; left:0;
+z-index:10;	
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin:20px auto;
+height:250px;
+width:200px;
+Overflow: Scroll;     
+padding-top:1em;
+padding-bottom:1em;  
+border-radius:7px;
+border:	#8b9aa6 solid ;  
+border-radius:7px;
+border:	#8b9aa6 solid ;
+background-color: rgba(255, 255, 255, 0.8); 
+ 
+}
+
+p {		
+display: flex;
+justify-content: center;
+align-items: center;  
+height:50px;
+width:50px;  
+margin:5px;	
+}
+
+.police_normale
+{ 
+font-size:3.5em;
+cursor:pointer;	
+}
+
+.outline
+{ 
+color:#ffffff;
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;	
+font-size:3.5em;	
+}
+
+.shadow_blanc_bleu{
+text-shadow: 2px 1px 2px black, 0 0 1em #023ad7, 0 0 0.2em #023ad7;
+color: white;	
+font-size:3.5em;	
+}
+
+.famillie_gorgia{
+position:relative;
+top:-0.1em;
+font-size:3em;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;	
+}
+
+.famillie_cursive{
+font-size:3.5em;
+font-family: 'Lucida Console', Monaco, monospace;	
+}
+
+.famillie_Courier{
+font-size:3.5em;
+font-family: Courier, monospace;	
+}
+
+.famillie_Lucida{
+font-size:3.5em;
+font-family: "Gill Sans Extrabold", sans-serif;	
+}
+
+.famillie_Palatino{
+font-size:3.5em;
+font-family: 'Comic Sans MS', cursive;	
+}
+
+.famillie_Arial_Black{
+font-size:3.5em;
+font-family: "Arial Black", "Arial Bold", Gadget, sans-serif; 	
+}
+
+.italic_para{
+font-size:3.5em;	
+font-style:italic;
+}
+
+.italic_ligne{
+font-size:3.5em;	
+font-style:italic;
+}
+
+.bold_para{	
+position:relative;
+top:2px;
+font-size:3em;
+font-weight:bold;	
+}
+
+.bold_ligne{	
+position:relative;
+top:-0.2em;
+font-size:3em;
+font-weight:bold;	
+}
+
+.capitale{
+position:relative;
+top:-0.2em;
+text-transform: uppercase;	
+font-size:2.8em;	
+}
+
+.souligner{
+	position:relative;
+top:-0.2em;
+text-decoration: underline;	
+font-size:2.8em;
+font-weight:bold;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
